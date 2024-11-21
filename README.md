@@ -1,5 +1,5 @@
 
-# Extension WIFI ESP8266 pour MakeCode 
+# Extension VDR WIFI ESP8266 pour MakeCode 
 Module WIFI ESP8266 de Citron Tehchnologie
 
 <img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/icon.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
