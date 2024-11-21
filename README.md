@@ -1,5 +1,6 @@
 
-# Extension pour Microsoft MakeCode - module WIFI ESP8266 de Citron Tehchnologie
+# Extension WIFI ESP8266 pour MakeCode 
+Module WIFI ESP8266 de Citron Tehchnologie
 
 <img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/icon.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
 
@@ -21,8 +22,8 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 
 ## utilisation pour remonter des données
 
-<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/initialise.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/initialise.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
 
-<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/wifi.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/wifi.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
 
-<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/envoi.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/send.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
