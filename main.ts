@@ -1,3 +1,4 @@
+//% weight=10 color=#ff8000 icon="\uf1eb" block="vdr ESP8266 WiFi"
 namespace vdr_ESP8286_wifi {
     // Flag to indicate whether the ESP8266 was initialized successfully.
     let VDResp8266Initialized = false
