@@ -1,5 +1,14 @@
 
-> Ouvrir cette page à [https://du-man-net.github.io/vdr_esp8286_wifi/](https://du-man-net.github.io/vdr_esp8286_wifi/)
+# Extension pour Microsoft MakeCode - module WIFI ESP8266 de Citron Tehchnologie
+
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/icon.png" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
+
+Ce module nécessite l'utilisation d'un Shield Grove pour Micro:bit
+
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/shield.png" alt="Shield Grove pour Micro:bit" style="max-width: 25%;">
+  25%;">
+
+ce module est basé sur [l'extension de Citron Technologie](https://github.com/CytronTechnologies/pxt-esp8266)
 
 ## Utiliser comme extension
 
@@ -10,15 +19,10 @@ Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
 * cliquez sur **Extensions** dans le menu engrenage
 * recherchez **https://github.com/du-man-net/vdr_esp8286_wifi** et importez
 
-## Éditer ce projet
+## utilisation pour remonter des données
 
-Éditer ce dépôt dans MakeCode.
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/initialise.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
 
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/du-man-net/vdr_esp8286_wifi** et cliquez sur importer
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/wifi.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
 
-#### Métadonnées (utilisées pour la recherche, le rendu)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/img/envoi.jpg" alt="ESP8266 WiFi Grove Module" style="max-width: 100%;">
