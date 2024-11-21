@@ -1,4 +1,4 @@
-namespace VDR_ESP8286_WIFI {
+namespace vdr_ESP8286_wifi {
     // Flag to indicate whether the ESP8266 was initialized successfully.
     let VDResp8266Initialized = false
 
