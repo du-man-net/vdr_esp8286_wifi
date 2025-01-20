@@ -282,7 +282,7 @@ namespace vdr_ESP8286_wifi {
         let data = "GET " + url;
 
         // Send the data.
-        VDRsendCommand("AT+CIPSEND=" + (data.length + 2))
+        VDRsendCommand("AT+CIPSEND=" + (data.length + 7))
         VDRsendCommand(data)
 
         // Return if "SEND OK" is not received.
