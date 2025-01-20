@@ -263,11 +263,10 @@ namespace vdr_ESP8286_wifi {
     //% weight=25
     //% blockGap=8
     //% blockId=vdr_esp8266_datas_upload
-    //% block="Connecter au serveur : Serveur %server Port %port Url %url Champs %champs"
+    //% block="Connecter au serveur : Serveur %server Port %port Url %url"
     export function VDRuploadDatas(server: string,
         port: string,
-        url: string,
-        champs: string) {
+        url: string) {
 
         // Reset the upload successful flag.
         VDRdatasUploaded = false
@@ -280,7 +279,7 @@ namespace vdr_ESP8286_wifi {
 
         // Construct the data to send.
 
-        let data = "GET /" + url + "?" + champs;
+        let data = "GET " + url;
 
         // Send the data.
         VDRsendCommand("AT+CIPSEND=" + (data.length + 2))
