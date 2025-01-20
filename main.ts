@@ -282,14 +282,14 @@ namespace vdr_ESP8286_wifi {
         let data = "GET " + url;
 
         // Send the data.
-        VDRsendCommand("AT+CIPSEND=" + (data.length + 7))
+        VDRsendCommand("AT+CIPSEND=" + (data.length + 2))
         VDRsendCommand(data)
 
         // Return if "SEND OK" is not received.
-        if (VDRgetResponse("SEND OK", 1000) == "") return
+        if (VDRgetResponse("SEND OK", 5000) == "") return
 
         // Check the response from ThingSpeak.
-        let response = VDRgetResponse("+IPD", 1000)
+        let response = VDRgetResponse("OK", 1000)
         if (response == "") return
 
         // Trim the response to get the upload count.
