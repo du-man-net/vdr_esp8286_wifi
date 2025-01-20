@@ -7,7 +7,6 @@ Module WIFI ESP8266 de Citron Tehchnologie
 Ce module nécessite l'utilisation d'un Shield Grove pour Micro:bit
 
 <img src="https://github.com/du-man-net/vdr_esp8286_wifi/blob/master/shield.png" alt="Shield Grove pour Micro:bit" style="max-width: 25%;">
-  25%;">
 
 ce module est basé sur [l'extension de Citron Technologie](https://github.com/CytronTechnologies/pxt-esp8266)
 
